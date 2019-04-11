@@ -7,7 +7,7 @@ function index() {
 }
 
 function show(username) {
-  if(typeof username === 'string'){
+  if (typeof username === 'string') {
     return axios.get(`${BASE_URL}/users?username=${username}`)
   }
   return axios.get(`${BASE_URL}/users/${username}`)

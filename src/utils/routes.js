@@ -3,7 +3,7 @@ export default {
     ROOT: '/',
     SHOW: {
       USER: '/:username',
-      POST: '/post/:id'
+      POST: '/post/:id',
     },
     AUTH: {
       LOGIN: '/login',

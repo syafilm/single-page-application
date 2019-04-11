@@ -651,7 +651,7 @@ const mediaBody = css`
   flex: 1;
 `
 
-//button
+// button
 const btnDark = css`
   display: inline-block;
   text-align: center;
@@ -963,7 +963,7 @@ export default {
   w12,
   w100,
   h100,
-  
+
   // modal
   modal,
   modalDialog,
@@ -1026,7 +1026,7 @@ export default {
   padding4,
   padding5,
 
-  //text
+  // text
   textRead,
   textMuted,
   textRight,
@@ -1037,13 +1037,13 @@ export default {
   media,
   mediaBody,
 
-  //button,
+  // button,
   btn,
   btnDark,
   btnDelete,
   btnEdit,
   btnClose,
-  //custom css
+  // custom css
   imgTinyAvaRadius,
   imgTinyHome,
   boxShadow,

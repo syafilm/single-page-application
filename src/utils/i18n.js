@@ -3,10 +3,10 @@ import i18next from 'i18next'
 const localeEn = require('locales/en.yml')
 const localeId = require('locales/id.yml')
 
-switch(document.documentElement.lang) {
+switch (document.documentElement.lang) {
   case 'id':
     sessionStorage.setItem('locale', 'id')
-    break;
+    break
   default:
     sessionStorage.setItem('locale', 'en')
 }
