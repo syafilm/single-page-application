@@ -1,0 +1,68 @@
+// ==========================================
+// Webfonts
+// ==========================================
+
+$roboto-light   : 'Roboto-Light', sans-serif;
+$roboto-regular : 'Roboto-Regular', sans-serif;
+$roboto-medium  : 'Roboto-Medium', sans-serif;
+$roboto-bold    : 'Roboto-Bold', sans-serif;
+$soft-white : #f8f9fa;
+
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url('./fonts/Roboto-Light.woff') format('woff');
+  src: url('./fonts/Roboto-Light.woff2') format('woff2');
+}
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url('./fonts/Roboto-Regular.woff') format('woff');
+  src: url('./fonts/Roboto-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url('./fonts/Roboto-Medium.woff') format('woff');
+  src: url('./fonts/Roboto-Medium.woff2') format('woff2');
+}
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url('./fonts/Roboto-Bold.woff') format('woff');
+  src: url('./fonts/Roboto-Bold.woff2') format('woff2');
+}
+
+body {
+  background: $soft-white !important;
+  margin: 0;
+  padding: 0;
+  font-family: $roboto-regular;
+}
+*, :after, :before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+  margin: 0px;
+}
+
+.indicator{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(6);
+  svg{
+    & polyline {
+      fill: none;
+      stroke-width: 1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    polyline#back {
+      stroke:rgba(0,0,0, 0.5);
+    }
+    polyline#front {
+      stroke: rgb(0,0,0) !important;
+      stroke-dasharray: 12, 36;
+      stroke-dashoffset: 48;
+      animation: dash 1.2s linear infinite;
+    }
+  }
+}

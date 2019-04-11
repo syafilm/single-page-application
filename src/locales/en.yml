@@ -1,0 +1,33 @@
+en:
+  label:
+    navbar: "LocalStores"
+    copyright: "© 2017 All rights reserved"
+  menu:
+    woman: "Woman"
+    man: "Man"
+    login: "Login"
+    register: "Register"
+    social-media: "Social Media"
+  profile:
+    info: "Information"
+    email: "Email"
+    phone: "Phone"
+    website: "Website"
+    album: "Albums"
+    number: "Number #%{ number }"
+    posts: "Posts"
+    home: "Home"
+    detail-album: "Detail Album #%{ number }"
+    image: "Image #%{ number }"
+  home:
+    active-user: "Active User"
+  post:
+    response: "Response"
+    comment-here: "Comment here"
+    comment: "Comment"
+    add-post: "Add post"
+    title: "Title"
+    content: "Content"
+    post: "Post"
+  copy:
+    made-width: "Made width love by <a href='https://www.linkedin.com/in/syafilm'>%{ name }</a>"

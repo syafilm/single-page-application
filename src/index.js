@@ -1,16 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter, Route, Switch, Link, Redirect } from 'react-router-dom'
-import './index.css' 
-import App from './App'
+import { Home, Profile, Post } from 'pages'
 import * as serviceWorker from './serviceWorker'
-import Routes from './routes'
+import { Routes } from 'utils'
+import './index.scss'
 
 ReactDOM.render(<BrowserRouter>
   <Switch>
-    <Route path={Routes.Root} component={App} />
-    {/* <Route path={Route.Login} component={Login} />
-    <Route path={Route.Register} component={Register} /> */}
+    <Route exact path={Routes.ACTIVE.ROOT} component={Home} />
+    <Route exact path={Routes.ACTIVE.SHOW.USER} component={Profile} />
+    <Route path={Routes.ACTIVE.SHOW.POST} component={Post} />
   </Switch>
 </BrowserRouter>, document.getElementById('root'))
 

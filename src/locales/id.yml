@@ -1,0 +1,33 @@
+id:
+  label:
+    navbar: "LocalStores"
+    copyright: "© 2017 All rights reserved"
+  menu:
+    woman: "Wanita"
+    man: "Pria"
+    login: "Masuk"
+    register: "Daftar"
+    social-media: "Social Media"
+  profile:
+    info: "Informasi"
+    email: "Email"
+    phone: "Phone"
+    website: "Website"
+    album: "Albums"
+    number: "Number  #%{ number }"
+    posts: "Posts"
+    home: "Beranda"
+    detail-album: "Detail Album #%{ number }"
+    image: "Gambar #%{ number }"
+  home:
+    active-user: "Pengguna Aktif"
+  post:
+    response: "Respon"
+    comment-here: "Komen disini"
+    comment: "Komen"
+    add-post: "Tambah post"
+    title: "Judul"
+    content: "Kontent"
+    post: "Post"
+  copy:
+    made-width: "Dibuat dengan cinta oleh <a href='https://www.linkedin.com/in/syafilm'>%{ name }</a>"
