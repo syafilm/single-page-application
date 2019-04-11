@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { BrowserRouter, Route, Switch, Link, Redirect } from 'react-router-dom'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import { Home, Profile, Post } from 'pages'
 import * as serviceWorker from './serviceWorker'
 import { Routes } from 'utils'
