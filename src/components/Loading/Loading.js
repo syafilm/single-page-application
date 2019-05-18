@@ -10,7 +10,7 @@ const height = '12px'
 const point1 = '1 6 4 6 6 11 10 1 12 6 15 6'
 const point2 = '1 6 4 6 6 11 10 1 12 6 15 6'
 
-const Footer = () => (
+const Loading = () => (
   <div className={Styles.indicator}>
     <svg width={width} height={height}>
       <polyline id={back} points={point1} />
@@ -19,4 +19,4 @@ const Footer = () => (
   </div>
 )
 
-export default Footer
+export default Loading
